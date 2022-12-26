@@ -1,5 +1,5 @@
 <?php 
-require_once('config.php');
+require_once('./config.php');
 $query='SELECT * FROM users';
 $stmt= $db->prepare($query) ;
 $stmt->execute();
